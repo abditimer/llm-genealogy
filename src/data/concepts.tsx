@@ -54,6 +54,11 @@ export const concepts: Record<string, ConceptDefinition> = {
         description: "A specialized implementation of RoPE used in DeepSeek-V3's Multi-Head Latent Attention architecture to compress KV cache while maintaining positional information.",
         links: [{ label: "DeepSeek V3", url: "https://arxiv.org/abs/2412.19437" }],
     },
+    iRoPE: {
+        title: "Interleaved RoPE (iRoPE)",
+        description: "Used in Llama 4, iRoPE interleaves attention layers that use Rotary Position Embeddings with layers that have no positional encoding (NoPE). This allows the model to learn both local positional structure and global position-invariant patterns, improving long-context generalization.",
+        links: [{ label: "Llama 4 Technical Report", url: "https://ai.meta.com/research/publications/the-llama-4-herd/" }],
+    },
     ALiBi: {
         title: "Attention with Linear Biases",
         description: "Adds a static, non-learned bias to attention scores based on the distance between tokens. Allows training on short sequences and inference on very long ones.",

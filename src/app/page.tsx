@@ -42,6 +42,7 @@ const posOptions = [
   { label: "Relative", value: "Relative" },
   { label: "RoPE", value: "RoPE" },
   { label: "RoPE (MLA)", value: "RoPE (MLA)" },
+  { label: "iRoPE", value: "iRoPE" },
   { label: "Hybrid", value: "Hybrid" },
 ];
 const styleOptions = [
