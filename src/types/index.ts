@@ -6,7 +6,7 @@ export type ModelArchitecture = {
     normType: "LayerNorm" | "RMSNorm";
     layerStyle: "Serial" | "Parallel";
     isPreNorm: boolean;
-    positionEmbedding: "Sine" | "Absolute" | "Relative" | "RoPE" | "ALiBi" | "Hybrid" | "RoPE (MLA)";
+    positionEmbedding: "Sine" | "Absolute" | "Relative" | "RoPE" | "ALiBi" | "Hybrid" | "RoPE (MLA)" | "iRoPE";
     activation: "ReLU" | "GeLU" | "SwiGLU" | "GeGLU" | "SqReLU" | "SiLU";
     stabilityTricks?: string[]; // e.g., ["z-loss", "QK-norm", "logit soft-capping", "Pre+Post Norm"]
     paperTitle: string;

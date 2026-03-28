@@ -15,9 +15,9 @@ This project provides a filterable, sortable reference for researchers and devel
 
 ## Features
 
-- **Timeline View**: Models from 2017 (Transformer) to 2025 (Gemma 3).
+- **Timeline View**: Models from 2017 (Transformer) to 2025 (Llama 4, Qwen 3, Nemotron-Super, Kimi k1.5, MiniMax-01, and more).
 - **Faceted Filtering**: Filter by year, normalization type, activation function, and more.
-- **Deep Dive**: Interactive tooltips explaining technical concepts (e.g., "What is RoPE?").
+- **Deep Dive**: Interactive tooltips explaining technical concepts (e.g., "What is RoPE?", "What is iRoPE?").
 - **Paper Links**: Direct access to arXiv papers for each model.
 
 ## Tech Stack
