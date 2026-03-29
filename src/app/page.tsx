@@ -247,15 +247,9 @@ export default function Home() {
             </span>
           </div>
           <div className="flex items-center space-x-2">
-            <Button variant="outline" size="sm" asChild>
-              <a
-                href="https://github.com/new/issue?template=model-request.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <PlusCircle className="mr-2 h-4 w-4" />
-                Submit Model
-              </a>
+            <Button variant="outline" size="sm" disabled>
+              <PlusCircle className="mr-2 h-4 w-4" />
+              Submit Model
             </Button>
             {/* Mobile Filter Trigger */}
             <Sheet>
